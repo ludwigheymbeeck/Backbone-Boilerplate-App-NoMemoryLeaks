@@ -1,1 +1,2 @@
-# Backbone-Boilerplate-App-NoMemoryLeaks
+
+This is a boilerplate for Backbone Apps whereby we try to avoid memory leaks by structuring our app accordingly....
