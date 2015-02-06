@@ -1,0 +1,241 @@
+.topcoat-switch__input:checked + .topcoat-switch__toggle {
+  background-color: #1284ff;
+}
+.topcoat-switch__input:checked + .topcoat-switch__toggle:before {
+  border-color: #1284ff;
+}
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+/*  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;*/
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+/*  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;*/
+}
+
+.parsley-errors-list {
+
+  width: 80%;
+  margin: auto;
+  color: red;
+  /*margin: 2px 0 3px 0;*/
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+  -moz-opacity: 0;
+  -webkit-opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+
+#wrapper {
+width: 97%; /**adjusts to viewport width**/
+/*min-width: 700px; *smallest width possible**/
+max-width: 1400px; /**largest width possible**/
+margin: 60px auto 0 auto; /**centered**/
+background: #FFF;
+overflow: hidden; /*to contain floats*/
+}
+
+/**this styles image container**/
+#thumbs p {
+position: relative;
+float: left;
+width: 180px;
+/*height: 12.5em;*/
+margin: 5px 0 0 10px;
+padding: 5px;
+/*border: 1px solid silver;*/
+border: 1px solid #eee;
+/**rounded borders**/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 5px;
+/**this styles caption text**/
+/*font: italic 14px/1.5 Geneva, Arial, Helvetica, sans-serif;*/
+font: 12px/1.5 Geneva, Arial, Helvetica, sans-serif;
+/*color: #666;*/
+color: #aaa;
+text-align: center;
+}
+
+/**recommend using same size images**/
+#thumbs img {
+width: 160px; /**adjust width to photo**/
+/*height: 120px; *adjust height to photo**/
+margin-bottom: 1.5em;
+}
+
+/**disable grayscale**/
+#thumbs img:hover {
+opacity:1.0;
+filter:none;
+-webkit-filter: grayscale(0%);
+}
+
+/**float clearing**/
+#thumbs:after {
+content: " ";
+clear: left;
+font-size: 0px;
+line-height: 0;
+display: block;
+visibility: hidden;
+}
+
+.ctrl {
+  width: 50px;
+  height: 50px;
+}
+
+a, a:hover, td > a, td > a:hover, button > a, button > a:hover
+{
+    text-decoration:none;
+}
+
+div.float-left {
+    float: left;
+}
+
+.text-centering {
+    text-align: center;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.main-image-wrapper {
+    text-align: center;
+    opacity: 0.2;
+    height: 180px;
+    margin: 30px 0;
+}
+
+.main-image {
+    font-size: 150px;
+    line-height: 200px;
+}
+
+.text-input--underbar{
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    background: transparent;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    vertical-align: top;
+    outline: none;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    letter-spacing: 0;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /*color: #1f1f21;*/
+    color: #737373;
+    padding: 4px 8px;
+    font-size: 19px;
+    height: 48px;
+    vertical-align: middle;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ddd;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+.text-input--underbar:invalid {
+    border: 1px solid #ddd;
+    /*color: #1f1f21;*/
+    color: #737373;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #1f1f21;
+}
+
+input[type="email"], input[type="password"], input[type="tel"], input[type="text"], select {
+    display: block;
+    width: 80%;
+    height: 48px;
+    margin: 0 auto;
+    font-size: 19px;
+    outline: none;
+    line-height: 48px;
+}
+
+input[type="checkbox"] {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    /*opacity: 0.1;*/
+}
+
+.topcoat-checkbox > .topcoat-checkbox__checkmark:after {
+  top: 7px;
+  left: 5px;
+}
+
+.login-button {
+    display: block;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    font-size: 18px;
+}
+
+.forgot-password {
+    display: block;
+    margin: 8px auto 0 auto;
+    font-size: 14px;
+}
+
+html,body {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    background-color: #333;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+/*.footer{
+    position: relative;
+    margin-top: -60px; 
+    height: 60px;
+    clear:both;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}*/

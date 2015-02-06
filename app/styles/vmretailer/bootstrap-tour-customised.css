@@ -1,0 +1,9 @@
+.btn-default {
+  color: white;
+  background-color: #1284ff;
+  border-color: #cccccc;
+}
+
+.btn-default.disabled{
+  color: #333333;
+}

@@ -1,0 +1,52 @@
+/*-- Pure CSS (http://purecss.io/). -----------------------------------------*/
+
+/*@import "../../bower_components/pure/pure.css";*/
+
+/*-- Application stylesheets. -----------------------------------------------*/
+
+/* mobile.css */
+@import "bootstrap.css";
+
+/*@import "font-awesome/font-awesome.css";*/
+
+/* following 2 lines are from original onsen/onsenui.css file... */
+@import "onsen/font_awesome/css/font-awesome.css";
+@import "onsen/ionicons/css/ionicons.min.css";
+
+/*@import "onsen/onsenui.css";*/
+@import "onsen/onsenui-MODIFIED.css";
+
+/*@import "../../bower_components/onsenui/build/css/onsenui.css";*/
+@import "onsen/topcoat-mobile-onsen-ios7.css";
+/*@import "onsen/topcoat-mobile-onsen-blue.css";*/
+
+/* background-image at line 1879 has been disabled because it creates issues with grunt genration */
+@import "onsen/onsen-css-components-default-MODIFIED.css";
+/*@import "onsen/onsen-css-components-default.css";*/
+/*@import "../../bower_components/onsenui/build/css/onsen-css-components-default.css";*/
+
+@import "customstyle.css";
+@import "vmretailer/customsnap.css";
+@import "vmretailer/snap.css";
+@import "vmretailer/backgrid.css";
+@import "vmretailer/backgrid-paginator.css";
+@import "vmretailer/searchautocomplete.css";
+
+@import "single.css";
+@import "vmretailer/bootstrap-tour-customised.css";
+@import "vmretailer/bootstrap-tour.css";
+
+@import "react/style.css";
+/*
+@import "vmretailer/bootstrap-theme.css";
+@import "vmretailer/build.min.css";
+@import "vmretailer/customstyle.css";
+@import "vmretailer/index.css";
+@import "vmretailer/jquery.fancybox.css";
+@import "vmretailer/login.css";
+@import "vmretailer/normalize.css";
+@import "vmretailer/pageslider.css";
+@import "vmretailer/style.css";
+@import "vmretailer/styles.css";
+*/
+@import "commonstyles.css";
